@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px var(--horizontal-space);
+  padding: 40px var(--horizontal-space) 30px var(--horizontal-space);
   margin-bottom: 10px;
 }
 .screen-header__title {
@@ -12,4 +12,5 @@
 
 .screen-header__icons span {
   margin-left: 25px;
+  position: relative;
 }

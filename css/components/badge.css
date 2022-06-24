@@ -10,3 +10,21 @@
   left: 17px;
   bottom: 15px;
 }
+
+.fa-cog {
+  position: relative;
+}
+
+.badge-dot {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  left: -5px;
+  bottom: 25px;
+}
