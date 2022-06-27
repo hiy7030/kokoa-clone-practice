@@ -1,0 +1,46 @@
+#profile-screen {
+  background-color: rgba(0, 0, 0, 0.5);
+  /*background-image: url("../../image/엉덩이.jpg");*/
+  background-size: cover;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px var(--horizontal-space);
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.profile-header__column:last-child i {
+  margin: 0px 7px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.music__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(100, 0, 0, 0.6);
+  color: white;
+  padding-right: 10px;
+  margin: 0px 160px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+}
+
+.music__column-img {
+  display: inline;
+  width: 28px;
+  height: 28px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.music__title {
+  font-weight: 600;
+}
