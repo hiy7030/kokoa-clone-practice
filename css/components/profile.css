@@ -1,6 +1,6 @@
 #profile-screen {
   background-color: rgba(0, 0, 0, 0.5);
-  /*background-image: url("../../image/엉덩이.jpg");*/
+  background-image: url("../../image/엉덩이.jpg");
   background-size: cover;
 }
 
@@ -9,6 +9,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 40px var(--horizontal-space);
+}
+
+.profile-header__column {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.7);
 }
@@ -43,4 +46,37 @@
 
 .music__title {
   font-weight: 600;
+}
+
+.user-profile {
+  position: fixed;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.user-profile__profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user-profile__profile img {
+  margin-bottom: 10px;
+}
+
+.user-profile__text {
+  text-align: center;
+}
+
+.user-profile__title {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.user-profile__subtitle {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
 }
